@@ -214,3 +214,6 @@ ro.build.shutdown_timeout=0
 # SoC
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SDM660
+
+# OEM Unlock support
+ro.oem_unlock_supported=1
