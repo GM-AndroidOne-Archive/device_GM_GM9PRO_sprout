@@ -23,6 +23,9 @@ PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-im
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
+PRODUCT_DEFAULT_DEV_CERTIFICATE := $(LOCAL_PATH)/keys/releasekey
+PRODUCT_OTA_PUBLIC_KEYS := $(LOCAL_PATH)/keys/releasekey.x509.pem
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
