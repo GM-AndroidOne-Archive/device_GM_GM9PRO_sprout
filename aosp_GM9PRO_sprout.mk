@@ -14,7 +14,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 ## Android One Experience required flags
 # if your build is ready to release:
 CUSTOM_BUILD_TYPE := release
-PRODUCT_CUSTOM_MODEL := GM9PRO
+PRODUCT_CUSTOM_MODEL := 9PR
 
 # Inherit from device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
