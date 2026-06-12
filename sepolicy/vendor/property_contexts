@@ -6,3 +6,7 @@ persist.camera.                         u:object_r:vendor_default_prop:s0
 persist.vendor.camera.                  u:object_r:camera_prop:s0
 
 vendor.powerhal.                        u:object_r:vendor_power_prop:s0
+
+# vendor_default_prop
+persist.vendor.data.shsusr_load                 u:object_r:vendor_default_prop:s0
+persist.vendor.data.qmipriod_load               u:object_r:vendor_default_prop:s0
